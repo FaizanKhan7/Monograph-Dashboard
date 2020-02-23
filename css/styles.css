@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+
+/* nav- font-family: 'Barlow Condensed', ; */
+
+header {
+    margin: 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+section img {
+    padding: 2rem 2rem;
+    width: 100%;
+}
+
+.content {
+    margin-left: 2rem;
+}
+
+.heading span {
+    background-color: hsl(230, 29%, 20%);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: normal;
+    padding: 2px 8px;
+    border-radius: 15px;
+    margin-right: 7px;
+}
+
+.heading {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    color: hsl(210, 5%, 78%);
+    letter-spacing: 3px;
+}
+
+.content h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    color: hsl(230, 29%, 20%);
+    margin: 1rem 0 1rem;
+    font-size: 2.2rem;
+}
+
+.paragraph {
+    color: hsl(230, 29%, 20%);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.red-btn {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    background-color: hsl(0, 100%, 68%);
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.red-btn:hover {
+    opacity: 0.8;
+}
+
+.inherit-btn {
+    font-family: 'Barlow Condensed', sans-serif;
+    border: none;
+    text-transform: uppercase;
+    background-color: inherit;
+    color: hsl(210, 4%, 71%);
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.inherit-btn:hover {
+    background-color: rgb(196, 189, 189);
+    color: white;
+}
