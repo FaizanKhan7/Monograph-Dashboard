@@ -13,11 +13,19 @@
 </head>
 
 <body>
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
     <header>
-        <img src="images/logo.svg" alt="logo">
-        <div class="menu-btn">
-            <i class="fas fa-bars fa-2x"></i>
-        </div>
+        <nav class="main-nav">
+            <img src="images/logo.svg" alt="logo">
+            <ul class="main-menu">
+                <li>Product</li>
+                <li>Features</li>
+                <li>pricing</li>
+                <li>login</li>
+            </ul>
+        </nav>
     </header>
     <section>
         <img src="images/illustration-devices.svg" alt="illustration-devices">
@@ -30,6 +38,10 @@
         <button class="red-btn">schedule a demo</button>
         <button class="inherit-btn">to see a preview</button>
     </section>
+
+    <script>
+        document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'));
+    </script>
 </body>
 
 </html>
